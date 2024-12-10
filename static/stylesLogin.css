@@ -1,0 +1,167 @@
+html,body{
+    height-min: 1000px;
+}
+
+#titulo{
+    margin: 12px;
+}
+
+#btnReservar{
+    margin-top: 50px;
+    background-color: #fceed7;
+    color: black;
+    border: #fceed7;
+    text-decoration: none; /* Quita el subrayado */
+}
+
+#btnReservar:hover{
+    background-color: #489143;
+
+}
+
+.colorbeige{
+    background-color: #fceed7;
+}
+
+#footer{
+    margin-top: 100px;
+    background-color: #fceed7;
+    height: 200px;
+    padding: 20px;
+}
+
+#contenedor{
+    min-height: 313px;
+}
+
+.contenedor2{
+    margin-top: 50px;
+    margin-inline: 5%;
+}
+
+table {
+            width: 100%;
+            border-collapse: collapse;
+}
+th, td {
+            padding: 10px;
+            text-align: left;
+            border: 1px solid #ddd;
+}
+th {
+            background-color: #f2f2f2;
+}
+.encabezadoPage{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.btnMas{
+    height: 5%;
+    margin-top: 0.7%;
+    margin-left: 1%;
+
+}
+
+.pagina{
+    padding: 5%;
+
+}
+
+td{
+    border: solid 1px black;
+}
+th{
+    background-color: #489143;
+    color: white;
+}
+
+
+/* El contenedor emergente, inicialmente oculto */
+.overlay {
+    display: none;  /* Ocultar el contenedor por defecto */
+    position: fixed; /* Fijarlo en toda la pantalla */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)); /* Fondo degradado */
+    z-index: 1000; /* Asegura que se sobreponga al contenido */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Estilos del contenedor dentro del overlay */
+.containerOculto {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    width: 50%;
+}
+
+.form1{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.form2{
+    margin-inline: 5%;
+}
+
+.opciones{
+    align-content: center;
+}
+.btn-primary{
+    margin-left: 5px;
+}
+
+.eliminar{
+    margin-left: 5px;
+}
+
+td{
+    background-color: white;
+    input{
+        border: none;
+    }
+}
+
+#fondoLogin{
+    background-color: #fceed7;
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    justify-content: center; /* Alineación horizontal */
+    align-items: center;
+}
+
+#log2{
+    display: block;
+    width: 70%;
+    height: 80%;
+}
+
+#login{
+    background-color: white;
+    text-align: center;
+    height: 80%;
+    justify-content: center; /* Alineación horizontal */
+    align-items: center;
+    border-radius: 20px;
+    padding: 5%;
+    padding-inline: 30%;
+}
+
+.mb-3{
+    width: 100%;
+    justify-content: left;
+    align-self: center;
+}
+
+#botonLog{
+    position: relative;
+}

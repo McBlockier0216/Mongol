@@ -333,7 +333,7 @@ def login():
         if dataUser and dataUser["password"] == password:
             return redirect(url_for('home'))  # Redirigir a la página principal
         else:
-            return jsonify({"error": "Usuario o contraseña incorrectos"}), 401
+            return jsonify({"error": "Usuario o contraseña incorrectos", "showError": True}), 401
 
     except Exception as e:
         # Si ocurre un error, retornamos un mensaje

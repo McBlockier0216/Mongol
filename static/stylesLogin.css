@@ -165,3 +165,37 @@ td{
 #botonLog{
     position: relative;
 }
+
+/* Contenedor del mensaje (centrado) */
+#contenedorMensaje {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000; /* Asegura que esté por encima de otros elementos */
+}
+
+.mensajeE{
+    display: none;
+    background-color: white;
+    padding: 40px;
+    /*width: 40%;
+    /height: 20%;*/
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 5px 5px 10px rgba(139, 0, 0, 0.5);
+    animation: shake 0.5s ease-in-out; /* Aplica la animación */
+}
+
+/* Animación de temblor */
+@keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    50% { transform: translateX(5px); }
+    75% { transform: translateX(-5px); }
+    100% { transform: translateX(0); }
+}
+
+#error{
+    color: brown;
+}

@@ -42,7 +42,7 @@ document.querySelector('form').addEventListener('submit', async (event) => {
         setTimeout(() => {
             mensajeError.style.display = 'none';
             e401.style.display = 'none';
-        }, 3000);
+        }, 2500);
     }else {
         // Manejo de otros errores (opcional)
         const result = await response.json();
